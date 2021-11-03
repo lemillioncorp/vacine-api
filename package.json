@@ -1,0 +1,22 @@
+{
+  "name": "vacina-registro-api",
+  "version": "1.0.0",
+  "description": "API Rest",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch bi.json --port 9090"
+  },
+  "keywords": [],
+  "author": "Hydra Dev",
+  "license": "ISC Open Source",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "debug": "^4.3.2",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
+    "mongoose": "^6.0.12",
+    "mysql2": "^2.3.2",
+    "pm2": "^5.1.2",
+    "sequelize": "^6.8.0"
+  }
+}

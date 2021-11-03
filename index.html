@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="assets/brand/hydra-dev.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Hydra Dev Blog, Registro de Vacina Covid 19 - Angola API">
+    <meta name="generator" content="Hydra Dev Vacina 1.0.0">
+    <title>Hydra Dev - Documentação</title>
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link href="public/css/main.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+  </head>
+  <body class="bg-dark">
+    
+<div class="container">
+  <main>
+    <div class="py-5 text-center">
+      <img class="d-block mx-auto mb-4" src="assets/brand/hydra-dev.jpg" alt="" width="92" height="90">
+      <h2>Hydra Vacina</h2>
+      <p class="lead left">A Empresa Hydra Criou Uma Aplicação que está revolucionando o uso de tecnologia em Angola. Esse app é o Vacine.
+        Este Blog contém os EndPoints da API do Vacine, aonde qualquer desenvolvedor podem usa-lá para trascender os seus Próprio Projectos</p>
+    </div>
+
+    <div class="row g-5">
+      <div class="col-md-5 col-lg-4 order-md-last">
+        <h4 class="d-flex justify-content-between align-items-center mb-3">
+          <span class="text-primary">Quando usar?</span>
+        </h4>
+        <ul class="list-group mb-3">
+          <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+              <h6 class="my-0">Dados Reais</h6>
+              <small class="text-muted">Quando desejares ter dados que o Governo fornece</small>
+            </div>
+          </li>
+
+          <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+                <h6 class="my-0">Dados Atualizados</h6>
+                <small class="text-muted">Quando desejares ter dados mais recentes. Todos os Dias temos Dados novos</small>
+              </div>
+             
+            </li>
+
+            <li class="list-group-item d-flex lh-sm">
+                <a href="db.json" class="btn btn-secondary col-lg-12">Ver API</a>
+            </li>
+        </ul>
+
+      
+
+      </div>
+      <div class="col-md-7 col-lg-8">
+        <h3 class="mb-3 white">Suporte</h3>
+
+        <div class="card w-100">
+          <div class="card-body">
+            <h5 class="card-title">Rotas</h5>
+            <p class="card-text">Todos os métodos HTTP são suportados. Você pode usar http ou https para seus pedidos.</p>
+            <p>
+               
+                OBTER	/posts/1
+                OBTER	/posts/1/comentários
+                OBTER	/comentários?postId=1
+                POSTAR	/posts
+                PÔR	/posts/1
+                REMENDO	/posts/1
+                EXCLUIR	/posts/1
+
+                <ul class="list-group">
+                  <li class="list-group-item"> OBTER TODOS	/vacine</li>
+                  <li class="list-group-item">OBTER UM	/vacine/1</li>
+                  <li class="list-group-item">OBTER UM	/vacine?id=1</li>
+                  <li class="list-group-item">ADICIONAR /</li>
+                  <li class="list-group-item">And a fifth one</li>
+                </ul>
+
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Accordion Item #1
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Accordion Item #2
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Accordion Item #3
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="my-5 pt-5 text-muted text-center text-small white">
+    <p class="mb-1 white">&copy; 2021 Hydra Dev</p>
+    <ul class="list-inline">
+      <li class="list-inline-item white"><a class="white link" href="#">Termos</a></li>
+      <li class="list-inline-item white"><a class="white link" href="https://hydra-dev.negocio.site/">Suporte</a></li>
+    </ul>
+  </footer>
+</div>
+
+
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      <script src="public/js/main.js"></script>
+  </body>
+</html>
